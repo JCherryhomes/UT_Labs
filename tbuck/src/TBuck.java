@@ -11,6 +11,7 @@ public class TBuck {
     TwitterListener listener = new TwitterListener(); 
 
     TwitterStream twitterStream = new TwitterStreamFactory().getInstance();
+
     twitterStream.addListener(listener);
     Map<String, User> mapUsers= new HashMap<String, User>();
 
